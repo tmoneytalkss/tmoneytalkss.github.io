@@ -1,4 +1,4 @@
-```javascript
+javascript
 const canvas = document.getElementById("stars");
 const ctx = canvas.getContext("2d");
 
@@ -123,4 +123,3 @@ window.addEventListener("scroll", () => {
         `blur(${20 - progress * 20}px)`;
 
 });
-```
